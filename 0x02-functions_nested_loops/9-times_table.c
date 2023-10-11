@@ -1,23 +1,36 @@
 #include "main.h"
-#include <stdio.h>
+
+/**
+ * times_table - print out multiplication 0 to 9
+ */
 void times_table(void)
 {
-	int i, j, result;
+	int a, b, c;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (a = 0; a < 10; a++)
 	{
-		for (j = 0 ; j < 10 ; j++)
+		for (b = 0; b < 10; b++)
 		{
-			result = i * j;
-			if (j == 0)
-				printf("%d, ", result);
+			c = a * b;
+			if (c >= 10 && c <= 90)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(c / 10 + '0');
+				_putchar(c % 10 + '0');
+			}
 			else
 			{
-				printf("%2d", result);
-				if (j != 9)
-					printf(",");
+				if (b != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+				_putchar(c + '0');
 			}
 		}
-		printf('\n');
+		_putchar('\n');
+
 	}
 }
