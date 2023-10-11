@@ -14,15 +14,15 @@
 int main(void)
 {
 	int i;
-	int sum_of_multiples = 0;
+	int sum_of_num_multiples  = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
 		if ((i % 3 ==0) || (i % 5 == 0 ))
 		{
-			sum_of_multiples + = i;
+			sum_of_num_multiples += i;
 		}
 	}
-	printf("%d\n", sum_of_multiples);
+	printf("%d\n", sum_of_num_multiples);
 	return (0);
 }
