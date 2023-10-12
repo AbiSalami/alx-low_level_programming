@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * positive_or_negative - entry point
+ * Return: 0 (success)
+*/
 void positive_or_negative(int i)
 {
 	if (i > 0)
