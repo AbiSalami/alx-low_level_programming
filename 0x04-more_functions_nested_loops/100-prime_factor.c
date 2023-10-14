@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * description: code that prints the prime factors of the number 
+ * description: code that prints the prime factors of the number
  * 612852475143, followed by a new line
  *
  * Return: 0
