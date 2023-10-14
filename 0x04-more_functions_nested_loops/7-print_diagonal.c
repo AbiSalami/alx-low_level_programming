@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - function that draw a straight line 
+ * print_diagonal - function that draw a straight line
  * @n: parameter
  *
  * Return: 0
