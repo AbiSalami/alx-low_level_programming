@@ -23,7 +23,7 @@ void print_triangle(int size)
 		}
 		for (c = 0; c < a; c++)
 		{
-			_putchar('a');
+			_putchar('#');
 		}
 		_putchar('\n');
 	}
