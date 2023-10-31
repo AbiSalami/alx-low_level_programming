@@ -32,9 +32,9 @@ char *argstostr(int ac, char **av)
 			output[k] = av[i][j];
 			k++;
 		}
-		output[k++] = '\n';
+		output[k] = '\n';
+		k++;
 	}
 	output[k] = '\0';
-
 	return (output);
 }
