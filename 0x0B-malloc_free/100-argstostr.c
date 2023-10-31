@@ -23,7 +23,7 @@ char *argstostr(int ac, char **av)
 	output = malloc(sizeof(char) * count + 1);
 
 	if (output == NULL)
-		return strdup("failed");
+		return (NULL);
 
 	for (i = 0; i < ac; i++)
 	{
